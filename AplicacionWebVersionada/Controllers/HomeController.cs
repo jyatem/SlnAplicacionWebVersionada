@@ -8,6 +8,10 @@ namespace AplicacionWebVersionada.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="logger">Este para....</param>
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -18,6 +22,10 @@ namespace AplicacionWebVersionada.Controllers
             return View();
         }
 
+        /// <summary>
+        /// Acción que se encar....
+        /// </summary>
+        /// <returns>View...</returns>
         public IActionResult Privacy()
         {
             return View();
